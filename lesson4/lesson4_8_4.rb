@@ -15,3 +15,11 @@ dimensions.each do |dimension|
 end
 
 areas => [200, 1200, 3000]
+
+# ブロック引数を2子にした場合
+areas = []
+dimensions.each do |length, width|
+  areas << length * width
+end
+
+areas => [200, 1200, 3000]
