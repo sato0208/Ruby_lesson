@@ -10,3 +10,13 @@ end
 
 # 10
 sum
+
+
+numbers = [1, 2, 3, 4]
+sum = 0
+numbers.each do |n|
+  sum += n
+end
+
+# 10
+sum
