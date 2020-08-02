@@ -11,3 +11,12 @@ loop do
   break if n == 5
 end
 
+# while true
+#   無限ループ用の処理
+# end
+
+while true
+  n = numbers.sample
+  puts n
+  break if n == 5
+end
