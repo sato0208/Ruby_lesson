@@ -1,6 +1,6 @@
 # メソッドのキーワード引数とハッシュ
 
-def buy_burger(menu, drink, potato)
+def buy_burger(menu, drink: ture, potato: true)
   # ハンバーガーを購入
   if drink
     # ドリンクを購入
@@ -11,7 +11,7 @@ def buy_burger(menu, drink, potato)
 end
 
 # チーズバーガーとドリンクとポテトを購入する
-buy_burger('cheese', true, true)
+buy_burger('cheese', drink: true, potato: true)
 
 # フィッシュバーガーとドリンクを購入する
-buy_burger('fish', true, false)
+buy_burger('fish', drink: true, potato: false)
