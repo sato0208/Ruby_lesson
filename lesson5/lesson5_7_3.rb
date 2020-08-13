@@ -12,3 +12,12 @@ symbol = :apple
 
 string.to_sym
 string.to_sym == symbol
+
+
+# シンボルを文字列に変換
+string = 'apple'
+symbol = :apple
+
+symbol.to_s
+string == symbol.to_s
+string + symbol.to_s
