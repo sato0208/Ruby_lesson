@@ -29,3 +29,5 @@ string + symbol.to_s
 'apple'.respond_to?('foo_bar')
 'apple'.respond_to?(:foo_bar)
 
+# 文字列に'pp'が含まれるか調べる
+'apple'.include?('pp')
