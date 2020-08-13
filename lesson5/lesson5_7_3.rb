@@ -21,3 +21,11 @@ symbol = :apple
 symbol.to_s
 string == symbol.to_s
 string + symbol.to_s
+
+# respond_to? メソッドの引数には文字列とシンボルの両方を渡せる
+'apple'.respond_to?('include?')
+'apple'.respond_to?(:include?)
+
+'apple'.respond_to?('foo_bar')
+'apple'.respond_to?(:foo_bar)
+
