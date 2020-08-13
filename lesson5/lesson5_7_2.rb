@@ -4,3 +4,5 @@
 
 # () を区切り文字に使う
 %s(ruby is fun)
+
+%i(apple orange melon)
