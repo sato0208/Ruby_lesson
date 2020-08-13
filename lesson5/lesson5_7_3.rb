@@ -31,3 +31,6 @@ string + symbol.to_s
 
 # 文字列に'pp'が含まれるか調べる
 'apple'.include?('pp')
+
+# シンボルを引数で渡すとエラーになる
+'apple'.include?(:pp)
