@@ -9,3 +9,5 @@
 
 name = 'Alice'
 %i(hello\ngood-bye #{name.upcase})
+
+%I(hello\ngood-bye #{name.upcase})
